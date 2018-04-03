@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+Route::resource('/sleep', 'SleepController');
+Route::resource('/sleep2', 'SleepController2');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

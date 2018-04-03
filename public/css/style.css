@@ -1,0 +1,128 @@
+/*svg {*/
+    /*font: 10px sans-serif;*/
+    /*background-color: rgba(253, 202, 155, 0.18);*/
+    /*margin-top: 40px;*/
+    /*margin-bottom: 300px;*/
+/*}*/
+
+
+/*.y.axis line {*/
+    /*stroke: #fff;*/
+    /*stroke-opacity: .2;*/
+    /*shape-rendering: crispEdges;*/
+/*}*/
+
+/*.y.axis .zero line {*/
+    /*stroke: #000;*/
+    /*stroke-opacity: 1;*/
+/*}*/
+
+/*.birthyear,*/
+/*.age {*/
+    /*text-anchor: middle;*/
+/*}*/
+
+/*.age {*/
+    /*fill: #000;*/
+/*}*/
+
+/*.birthyear {*/
+    /*fill: #fff;*/
+/*}*/
+
+/*.birthyears g:first-child, .shape-day g:first-child {*/
+    /*display: none;*/
+/*}*/
+
+/*rect {*/
+    /*fill-opacity: 0.8;*/
+    /*!*fill: #e377c2;*!*/
+    /*fill: #FFAB40;*/
+/*}*/
+
+/*rect:first-child {*/
+    /*fill: #FFB300;*/
+    /*stroke-width:1;*/
+    /*stroke:rgb(45, 45, 45);*/
+    /*fill-opacity: 0.2;*/
+/*}*/
+
+rect.bg-weekend-1 {
+    fill: #FFAB91;
+}
+
+/*rect.next-day {*/
+    /*fill: #BDBDBD;*/
+/*}*/
+
+/*rect.before-sleep, rect.after-sleep {*/
+    /*fill: #9575CD;*/
+/*}*/
+
+
+
+
+
+
+/* sleep style 1 */
+svg.sleep-graph {
+    font: 10px sans-serif;
+    background-color: rgba(253, 202, 155, 0.18);
+    margin-top: 40px;
+    margin-bottom: 300px;
+    width: 100%;
+    height: 1000px;
+    padding: 240px 0;
+}
+.hour-item line {
+    stroke: #fff;
+    stroke-opacity: .2;
+    shape-rendering: crispEdges;
+}
+.hour-item.zero line {
+    stroke: #000;
+    stroke-opacity: 1;
+}
+.hour-item text {
+    /*text-anchor: start;*/
+}
+
+.day-space {
+    text-anchor: middle;
+}
+
+.day-item {
+    fill: #fff;
+}
+
+._days-group g.day-item:first-child {
+    display: none;
+}
+
+.day-background {
+    fill: #FFB300;
+    stroke-width:1;
+    stroke:rgb(45, 45, 45);
+    fill-opacity: 0.2;
+}
+.shape-sleep {
+    fill-opacity: 0.8;
+    fill: #FFAB40;
+    width: 46px;
+}
+text.week-day {
+    fill: #000;
+    text-anchor: middle;
+}
+
+.shape-sleep-before, .shape-empty-after {
+    /*fill: #9575CD;*/
+    fill: #ffb75da8;
+    fill-opacity: 0.8;
+    width: 46px;
+}
+.shape-empty {
+    fill: #d8d8d8;
+    fill-opacity: 0.8;
+    width: 46px;
+}
